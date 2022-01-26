@@ -1,0 +1,23 @@
+[package]
+name = "egui_with_background"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = "0.16"
+egui_glium = "0.16"
+epi = "0.16"
+glium = "0.31"
+log = "0.4"
+image = "0.23"
+lazy_static = "1.4"
+parking_lot = "0.11"
+bytes = "1.1"
+
+[dependencies.reqwest]
+version = "0.11"
+optional = true
+
+[dependencies.surf]
+version = "2.3"
+optional = true
